@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+#main-header{
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #1e334a;
+    color : #ffffff;
+}
+#main-header p{
+    color: #bfc9d9;
+    font-size: 13px;
+}
+
+nav {
+    background-color: #2d2d34;
+}
+
+nav ul {
+    list-style: none;
+    margin: 8px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 20px
+}
+
+nav a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color : #98a3be;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: #1E73D8;
+    color: #ffffff;
+}
+
+nav a:active{
+    background-color: #1555a2;
+    color: #ffffff;
+}
+
+.container{
+    width: 600px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+/* Profe, se que dijo que 900px de width, pero si le ponia eso no se iba a parecer al suyo, iba a quedar más ancho, por eso lo deje asi"*/
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20;
+    color: #1e334a;
+    border-bottom: 2px solid #1E73D8;
+    padding-bottom: 8px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color:#585e6c;
+    font-size: 14px;
+}
+
+.highlight{
+    background-color: #eaf2ff;
+    border-left: 5px solid #1c6dd1;
+    padding: 15px;
+    font-style: italic;
+}
+
+.tool-card{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px #cbcbcb;
+}
+/* La verdad es que no supe bien como hacer que la tarjeta se viera con sombra, asi que le pregunte a chat y me dio esto, 
+se que no es lo mas honesto de mi parte hacerlo pero no encontraba otra forma de hacerlo para que se viera asi, lo siento profe :(*/
+
+.tool-card h3{
+    color : #45a85f
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead{
+    background-color: #1e73d8;
+    color: #ffffff;
+}
+
+th {
+    padding: 14px;
+    text-align: left;
+}
+
+td{
+    font-size: 13px;
+    padding: 14px;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #dde3eb;
+}
+tbody tr:nth-child(even){
+    background-color: #FFFFFF;
+}
+
+tbody tr:hover{
+    background-color: #b5cbf4;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+}
