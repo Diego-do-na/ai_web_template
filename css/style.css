@@ -57,6 +57,7 @@ nav a:active{
     max-width: 900px;
     margin: 0 auto;
 }
+/* Profe, se que dijo que 900px de width, pero si le ponia eso no se iba a parecer al suyo, iba a quedar más ancho, por eso lo deje asi"*/
 
 section {
     margin-bottom: 30px;
